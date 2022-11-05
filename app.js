@@ -30,8 +30,9 @@ function submit () {
 
     if ( pinDisplay.value == generatePinDisplay.value ) {
 
-        document.getElementById('notifyTrue').style.display = 'block';
-        document.getElementById('notifyFalse').style.display = 'none';
+        document.getElementById ('notifyTrue').style.display = 'block';
+        document.getElementById ('notifyFalse').style.display = 'none';
+        document.getElementById ('picMatcher').style.display = 'none'
 
 
     } else {
